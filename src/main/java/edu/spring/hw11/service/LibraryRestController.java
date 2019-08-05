@@ -1,14 +1,15 @@
 package edu.spring.hw11.service;
 
+import lombok.AllArgsConstructor;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.*;
 
+@AllArgsConstructor
 @RestController
 public class LibraryRestController {
 
-    @Autowired
     IPersonService iPersonService;
 
     @ResponseBody
