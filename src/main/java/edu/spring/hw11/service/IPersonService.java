@@ -1,5 +1,8 @@
 package edu.spring.hw11.service;
 
+import edu.spring.hw11.objects.Author;
+import edu.spring.hw11.objects.Book;
+
 import java.util.List;
 
 public interface IPersonService {

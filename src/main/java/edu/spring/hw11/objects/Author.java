@@ -1,4 +1,4 @@
-package edu.spring.hw11.service;
+package edu.spring.hw11.objects;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;
@@ -16,13 +16,13 @@ public class Author {
     public String lName;
     public Set<Book> book = new HashSet<>();
 
-    Author(int id, String fName, String lName) {
+    public Author(int id, String fName, String lName) {
         this.id = id;
         this.fName = fName;
         this.lName = lName;
     }
 
-     void setBook(Book book1) {
+     public void setBook(Book book1) {
         book.add(book1);
     }
 }

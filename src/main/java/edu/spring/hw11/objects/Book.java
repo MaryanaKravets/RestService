@@ -1,4 +1,4 @@
-package edu.spring.hw11.service;
+package edu.spring.hw11.objects;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;
