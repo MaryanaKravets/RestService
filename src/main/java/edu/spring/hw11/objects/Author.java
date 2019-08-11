@@ -11,10 +11,10 @@ import java.util.Set;
 @Getter
 @Setter
 public class Author {
-    public int id;
-    public String fName;
-    public String lName;
-    public Set<Book> book = new HashSet<>();
+    private int id;
+    private String fName;
+    private String lName;
+    private Set<Book> book = new HashSet<>();
 
     public Author(int id, String fName, String lName) {
         this.id = id;
